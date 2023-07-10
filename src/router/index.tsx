@@ -1,8 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import Layout from '../layout/index';
-import Webgl from '../pages/webgl';
-import Canvas from '../pages/canvas';
+import Layout from '@/layout/index';
+import Webgl from '@/pages/webgl';
+import Canvas from '@/pages/canvas';
+import Rough from '@/pages/rough';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: 'canvas',
         element: <Canvas />,
+      },
+      {
+        path: 'rough',
+        element: <Rough />,
       },
     ],
   },

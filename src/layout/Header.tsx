@@ -5,6 +5,7 @@ export const Header = () => {
     <div>
       <Link to={'webgl'}>webgl</Link>
       <Link to={'canvas'}>canvas</Link>
+      <Link to={'rough'}>rough</Link>
     </div>
   );
 };

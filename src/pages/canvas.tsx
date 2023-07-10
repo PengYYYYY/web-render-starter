@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const Canvas = () => {
   useEffect(() => {
-    const canvas = document.getElementById('stage') as HTMLCanvasElement;
+    const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 
     const context = canvas.getContext('2d')!;
 
@@ -16,7 +16,7 @@ const Canvas = () => {
 
     context.restore();
   });
-  return <canvas id="stage"></canvas>;
+  return <canvas></canvas>;
 };
 
 export default Canvas;

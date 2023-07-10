@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const WebGL = () => {
   useEffect(() => {
-    const canvas = document.getElementById('stage') as HTMLCanvasElement;
+    const canvas = document.querySelector('canvas') as HTMLCanvasElement;
     const gl = canvas.getContext('webgl')!;
 
     const vertex = `
@@ -53,7 +53,7 @@ const WebGL = () => {
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.drawArrays(gl.TRIANGLES, 0, points.length / 2);
   }, []);
-  return <canvas id="stage" width="512px" height="512px"></canvas>;
+  return <canvas width="512px" height="512px"></canvas>;
 };
 
 export default WebGL;
