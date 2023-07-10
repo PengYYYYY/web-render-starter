@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>doc</title>
+</head>
+<body>
+  <div>
+    <canvas id="stage" width="512px" height="512px" style="background: gray;"></canvas>
+  </div>
+  <script>
+    const canvas = document.getElementById('stage');
+    const context = canvas.getContext('2d')
+    const rectSize = [100, 100];
+    context.translate(-0.5 * rectSize[0], -0.5 * rectSize[1]);
+
+    context.fillStyle = 'red';
+    context.beginPath();
+    context.rect(0.5 * canvas.width, 0.5 * canvas.height, 100, 100);
+    context.fill();
+    context.save();
+
+    context.restore();
+  </script>
+</body>
+</html>
