@@ -4,6 +4,7 @@ import Layout from '@/layout/index';
 import Webgl from '@/pages/webgl';
 import Canvas from '@/pages/canvas';
 import Rough from '@/pages/rough';
+import CanvasKit from '@/pages/canvas-kit';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'rough',
         element: <Rough />,
+      },
+      {
+        path: 'canvasKit',
+        element: <CanvasKit />,
       },
     ],
   },
