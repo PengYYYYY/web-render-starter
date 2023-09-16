@@ -53,6 +53,7 @@ const WebGL = () => {
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.drawArrays(gl.TRIANGLES, 0, points.length / 2);
   }, []);
+
   return <canvas width="512px" height="512px"></canvas>;
 };
 
