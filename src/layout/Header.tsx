@@ -8,9 +8,9 @@ export const Header = () => {
         gap: '10px',
       }}
     >
-      <Link to={'webgl'}>webgl</Link>
+      <Link to={'svg'}>svg</Link>
       <Link to={'canvas'}>canvas</Link>
-      <Link to={'rough'}>rough</Link>
+      <Link to={'webgl'}>webgl</Link>
       <Link to={'canvaskit'}>canvaskit</Link>
       <Link to={'webgpu'}>webgpu</Link>
     </div>
