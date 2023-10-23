@@ -2,8 +2,8 @@
 
 web 渲染相关内容
 
-- canvas
 - svg
-- webgl: canvaskit
+- canvas
+- webgl
+- canvaskit
 - webgpu
-
