@@ -6,12 +6,18 @@ import Canvas from '@/pages/canvas';
 import CanvasKit from '@/pages/canvas-kit';
 import WebGpu from '@/pages/webgpu';
 import Svg from '@/pages/svg';
+import Vector from '@/pages/vector';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
     children: [
+      {
+        path: 'vector',
+        element: <Vector />,
+        index: true,
+      },
       {
         path: 'webgl',
         element: <Webgl />,

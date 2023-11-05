@@ -4,7 +4,9 @@ import { Header } from './Header';
 const Layout = () => (
   <>
     <Header />
-    <Outlet />
+    <div style={{ padding: 20, border: '1px solid black', marginTop: 24 }}>
+      <Outlet />
+    </div>
   </>
 );
 

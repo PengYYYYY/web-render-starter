@@ -14,7 +14,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
-    "roughjs": "^4.5.2"
+    "roughjs": "^4.5.2",
+    "tdesign-react": "^1.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
