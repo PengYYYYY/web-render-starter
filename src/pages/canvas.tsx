@@ -51,15 +51,15 @@ const Canvas = () => {
     context.stroke();
 
     context.fillStyle = 'blue';
-    // start point
+    // 开始坐标
     context.fillRect(50, 20, 10, 10);
-    // end point
+    // 结束坐标
     context.fillRect(50, 100, 10, 10);
 
     context.fillStyle = 'green';
-    // control point one
+    // 操作点一
     context.fillRect(230, 30, 10, 10);
-    // control point two
+    // 操作点二
     context.fillRect(150, 70, 10, 10);
     context.translate(10, -150);
 
