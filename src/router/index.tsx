@@ -1,12 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
 
+import Svg from '@/pages/svg';
 import Layout from '@/layout/index';
 import Webgl from '@/pages/webgl';
 import Canvas from '@/pages/canvas';
 import CanvasKit from '@/pages/canvas-kit';
 import WebGpu from '@/pages/webgpu';
-import Svg from '@/pages/svg';
-import Vector from '@/pages/vector';
 
 const router = createBrowserRouter([
   {
@@ -15,17 +14,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: 'vector',
-        element: <Vector />,
-        index: true,
-      },
-      {
-        path: 'webgl',
-        element: <Webgl />,
+        element: <Svg />,
         index: true,
       },
       {
         path: 'canvas',
         element: <Canvas />,
+      },
+      {
+        path: 'webgl',
+        element: <Webgl />,
       },
       {
         path: 'canvasKit',
@@ -34,10 +32,6 @@ const router = createBrowserRouter([
       {
         path: 'webgpu',
         element: <WebGpu />,
-      },
-      {
-        path: 'svg',
-        element: <Svg />,
       },
     ],
   },

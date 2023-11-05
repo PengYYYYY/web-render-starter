@@ -5,19 +5,16 @@ export const Header = () => {
   return (
     <div style={{ display: 'flex', gap: '10px' }}>
       <Link to={'vector'}>
-        <Button>vector</Button>
-      </Link>
-      <Link to={'svg'}>
-        <Button>svg</Button>
+        <Button>1.svg</Button>
       </Link>
       <Link to={'canvas'}>
-        <Button>canvas</Button>
+        <Button>2.canvas</Button>
       </Link>
       <Link to={'webgl'}>
-        <Button>webgl</Button>
+        <Button>3.webgl</Button>
       </Link>
       <Link to={'canvaskit'}>
-        <Button>canvaskit</Button>
+        <Button>4.canvaskit</Button>
       </Link>
       <Link to={'webgpu'}>
         <Button>webgpu</Button>
