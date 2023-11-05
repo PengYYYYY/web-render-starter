@@ -18,12 +18,12 @@ const Svg = () => {
 
       {/* 线段 */}
       <svg width="145" height="145" viewBox="0 0 145 145">
-        <line x1="0" x2="145" y1="0" y2="145" stroke="#42b883" stroke-width="2" />
+        <line x1="0" x2="145" y1="0" y2="145" stroke="#42b883" strokeWidth="2" />
       </svg>
 
       {/* 折线 */}
       <svg width="145" height="145">
-        <polyline points="10 10, 10 20, 20 30, 30 20, 90 50, 145, 145" stroke="#42b883" stroke-width="2" fill="none" />
+        <polyline points="10 10, 10 20, 20 30, 30 20, 90 50, 145, 145" stroke="#42b883" strokeWidth="2" fill="none" />
       </svg>
 
       {/* path，操作符号 */}
@@ -49,9 +49,9 @@ const Svg = () => {
 
       {/* 端点类型 */}
       <svg width="160" height="140" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <line x1="40" x2="120" y1="20" y2="20" stroke="black" fill="red" stroke-width="10" stroke-linecap="butt" />
-        <line x1="40" x2="120" y1="60" y2="60" stroke="black" stroke-width="10" stroke-linecap="square" />
-        <line x1="40" x2="120" y1="100" y2="100" stroke="black" stroke-width="10" stroke-linecap="round" />
+        <line x1="40" x2="120" y1="20" y2="20" stroke="black" fill="red" strokeWidth="10" strokeLinecap="butt" />
+        <line x1="40" x2="120" y1="60" y2="60" stroke="black" strokeWidth="10" strokeLinecap="square" />
+        <line x1="40" x2="120" y1="100" y2="100" stroke="black" strokeWidth="10" strokeLinecap="round" />
       </svg>
 
       {/* 连接方式 */}
@@ -59,28 +59,28 @@ const Svg = () => {
         <polyline
           points="40 60 80 20 120 60"
           stroke="black"
-          stroke-width="20"
-          stroke-linecap="butt"
+          strokeWidth="20"
+          strokeLinecap="butt"
           fill="none"
-          stroke-linejoin="miter"
+          strokeLinejoin="miter"
         />
 
         <polyline
           points="40 140 80 100 120 140"
           stroke="black"
-          stroke-width="20"
-          stroke-linecap="round"
+          strokeWidth="20"
+          strokeLinecap="round"
           fill="none"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
 
         <polyline
           points="40 220 80 180 120 220"
           stroke="black"
-          stroke-width="20"
-          stroke-linecap="square"
+          strokeWidth="20"
+          strokeLinecap="square"
           fill="none"
-          stroke-linejoin="bevel"
+          strokeLinejoin="bevel"
         />
       </svg>
 
@@ -89,16 +89,16 @@ const Svg = () => {
         <path
           d="M 10 75 Q 50 10 100 75 T 190 75"
           stroke="black"
-          stroke-linecap="round"
-          stroke-dasharray="5,10,5"
+          strokeLinecap="round"
+          strokeDasharray="5,10,5"
           fill="none"
         />
         <path
           d="M 10 75 L 190 75"
           stroke="black"
-          stroke-linecap="round"
-          stroke-width="1"
-          stroke-dasharray="5,5"
+          strokeLinecap="round"
+          strokeWidth="1"
+          strokeDasharray="5,5"
           fill="none"
         />
       </svg>
@@ -107,9 +107,9 @@ const Svg = () => {
       <svg width="120" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="0%" stop-color="red" />
-            <stop offset="50%" stop-color="black" stop-opacity="0" />
-            <stop offset="100%" stop-color="blue" />
+            <stop offset="0%" stopColor="red" />
+            <stop offset="50%" stopColor="black" stopOpacity="0" />
+            <stop offset="100%" stopColor="blue" />
           </linearGradient>
         </defs>
         <rect id="rect1" x="10" y="10" rx="15" ry="15" width="100" height="100" fill="url(#Gradient1)" />
@@ -119,12 +119,12 @@ const Svg = () => {
       <svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <radialGradient id="RadialGradient1">
-            <stop offset="0%" stop-color="red" />
-            <stop offset="100%" stop-color="blue" />
+            <stop offset="0%" stopColor="red" />
+            <stop offset="100%" stopColor="blue" />
           </radialGradient>
           <radialGradient id="RadialGradient2" cx="0.25" cy="0.25" r="0.25">
-            <stop offset="0%" stop-color="red" />
-            <stop offset="100%" stop-color="blue" />
+            <stop offset="0%" stopColor="red" />
+            <stop offset="100%" stopColor="blue" />
           </radialGradient>
         </defs>
 
