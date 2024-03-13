@@ -6,6 +6,7 @@ import Webgl from '@/pages/webgl';
 import Canvas from '@/pages/canvas';
 import CanvasKit from '@/pages/canvas-kit';
 import WebGpu from '@/pages/webgpu';
+import Matter from '@/pages/matter';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'webgpu',
         element: <WebGpu />,
+      },
+      {
+        path: 'matter',
+        element: <Matter />,
       },
     ],
   },
