@@ -20,7 +20,7 @@ export const Header = () => {
         <Button>5.webgpu</Button>
       </Link>
       <Link to={'matter'}>
-        <Button>6.matter</Button>
+        <Button>6.matter.js</Button>
       </Link>
     </div>
   );
