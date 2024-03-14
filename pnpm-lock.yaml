@@ -49,6 +49,9 @@ devDependencies:
   '@vitejs/plugin-react-swc':
     specifier: ^3.3.2
     version: 3.3.2(vite@4.4.2)
+  '@webgpu/types':
+    specifier: ^0.1.40
+    version: 0.1.40
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0
@@ -937,6 +940,10 @@ packages:
       vite: 4.4.2(@types/node@20.4.1)(less@4.1.3)
     transitivePeerDependencies:
       - '@swc/helpers'
+    dev: true
+
+  /@webgpu/types@0.1.40:
+    resolution: {integrity: sha512-/BBkHLS6/eQjyWhY2H7Dx5DHcVrS2ICj9owvSRdgtQT6KcafLZA86tPze0xAOsd4FbsYKCUBUQyNi87q7gV7kw==}
     dev: true
 
   /JSONStream@1.3.5:
