@@ -7,6 +7,7 @@ import Canvas from '@/pages/canvas';
 import CanvasKit from '@/pages/canvas-kit';
 import WebGpu from '@/pages/webgpu/webgpu';
 import Matter from '@/pages/matter';
+import Pixi from '@/pages/pixi';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: 'matter',
         element: <Matter />,
+      },
+      {
+        path: 'pixi',
+        element: <Pixi />,
       },
     ],
   },
