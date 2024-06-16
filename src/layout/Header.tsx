@@ -25,6 +25,9 @@ export const Header = () => {
       <Link to={'pixi'}>
         <Button>7.pixi.js</Button>
       </Link>
+      <Link to={'three'}>
+        <Button>8.three.js</Button>
+      </Link>
     </div>
   );
 };
